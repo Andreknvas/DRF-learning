@@ -1,0 +1,21 @@
+# Ambientes Virtuais (Onde o Python instala as libs)
+venv/
+.venv/
+env/
+
+# Cache do Python (Onde o bytecode .pyc é gerado)
+__pycache__/
+*.pyc
+
+# Banco de dados local (SQLite) - Geralmente não queremos subir o banco de teste
+db.sqlite3
+
+# Arquivos de ambiente (Senhas, chaves de API)
+.env
+
+# Estáticos de Produção (Aquela pasta do collectstatic que vimos)
+staticfiles/
+
+# IDEs
+.vscode/
+.idea/
